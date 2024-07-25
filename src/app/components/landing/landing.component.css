@@ -1,0 +1,75 @@
+span {
+  font-weight: bold;
+  font-size: 80px;
+  padding: 0 20px;
+}
+
+.container-left, .container-right {
+  width: 50%;
+  height: 90%;
+}
+
+.container-left {
+   float: left;
+}
+.container-right {
+  float: right;
+}
+
+.header {
+  height: 100%;
+  align-items: flex-end;
+}
+
+img {
+  width: 400px;
+}
+
+.section {
+  padding: 0 7.5vw;
+  width: calc(100% - 15vw);
+  background-color: #171717;
+}
+
+/* CUBE */
+
+.wrapper {
+  position: relative;
+  width: 15vw;
+  height: 15vw;
+  perspective: 1000px;
+}
+
+.cube {
+  transform-style: preserve-3d;
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+}
+
+.side {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+
+  border: 1px solid white;
+}
+
+.top {
+  transform: rotateX(90deg) translateZ(5vw);
+}
+.bottom {
+  transform: rotateX(90deg) translateZ(-5vw);
+}
+.left {
+  transform: rotateY(90deg) translateZ(5vw);
+}
+.right {
+  transform: rotateY(90deg) translateZ(-5vw);
+}
+.back {
+  transform: rotateZ(0deg) translateZ(-5vw);
+}
+.front {
+  transform: rotateZ(0deg) translateZ(5vw);
+}

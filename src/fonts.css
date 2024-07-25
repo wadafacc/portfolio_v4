@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.serif {
+  font-family: "Abril Fatface", serif;
+}
+
+.sans-serif {
+  font-family: "Poppins", sans-serif;
+}
+
+.curly {
+  font-family: "ndot82";
+}
+
+.monospace {
+  font-family: "Share Tech Mono", monospace;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.light {
+  font-weight: 100;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.funky {
+  background: linear-gradient(45deg, rgb(98, 98, 236), rgb(151, 0, 138));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-top: -20px;
+}
+
+@font-face {
+  font-family: "ndot82";
+  src: url(/fonts/Ndot-55.otf);
+}
+
+@font-face {
+  font-family: "ntype82";
+  src: url(/fonts/NType82-Regular.otf);
+}
+
+@font-face {
+  font-family: "ntype82-mono";
+  src: url(/fonts/NType82Mono-Regular.otf);
+}

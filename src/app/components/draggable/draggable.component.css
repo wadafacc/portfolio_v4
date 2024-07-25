@@ -1,0 +1,6 @@
+.draggable-container {
+  position: absolute;
+  width: 20vh;
+  height: 20vh;
+  background-color: blue;
+}

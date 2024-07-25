@@ -1,0 +1,34 @@
+#cursor {
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  mix-blend-mode:exclusion;
+  height: 1vh;
+  width: 1vh;
+
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+
+  transition: 0.25s;
+}
+
+.hovering {
+  position: relative;
+  height: 6vh !important;
+  width: 6vh !important;
+
+  border-radius: 1vh;
+  background-color: transparent !important;
+  border: 0.2vh solid white !important;  
+}
+
+.hovering::after {
+  content: "⤴";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  margin-top: -0.25vh;
+  font-size: 4vh;
+
+}

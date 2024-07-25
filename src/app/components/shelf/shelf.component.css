@@ -1,0 +1,47 @@
+.section {
+  background-color: white;
+  padding: 0;
+  width: 100%;
+}
+
+.shelf-head {
+  font-size: 70px;
+  color: black;
+  font-family: "ntype82-mono";
+  text-align: right;
+  border-bottom: 3px solid black;
+}
+
+.element {
+  width: calc(100vw / 3);
+}
+
+.element .img-wrapper {
+  width: 100%;
+  height: calc(100vw / 3);
+  overflow: hidden;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  transition: 0.25s;
+
+}
+
+.element:hover img {
+  filter:invert(75%);
+  scale: 1.1;  
+}
+
+
+.desc {
+  margin-top: 1vh;
+  padding-left: 2vh;
+  color: black;
+  width: calc(100% - 2vh);
+  font-family: "ntype82-mono";
+  font-size: 20px;
+}

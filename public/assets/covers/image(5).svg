@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="640" height="480" viewBox="0 0 640 480" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.6</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 350.5 350.5)"  >
+<linearGradient id="SVGID_4" gradientUnits="objectBoundingBox" gradientTransform="matrix(-0.45 -0.89 0.89 -0.45 0.28 1.17)"  x1="0.5" y1="0" x2="0.5" y2="1">
+<stop offset="0%" style="stop-color:rgb(97,91,152);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(255,49,46);stop-opacity: 1"/>
+</linearGradient>
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_4); fill-rule: nonzero; opacity: 1;"  x="-350" y="-350" rx="0" ry="0" width="700" height="700" />
+</g>
+<g transform="matrix(0.26 0 0 0.26 319.54 240.34)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 326.75 -142.03)" id="svgPath"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(100,172,220); fill-rule: evenodd; opacity: 1;"  transform=" translate(-841.75, -174.47)" d="M 960.5 0.651 C 908.744 4.727 871.733 11.715 834 24.535 C 740.257 56.385 682.459 114.818 661.926 198.5 C 656.585 220.264 654.858 235.005 654.278 263.747 C 653.71 291.921 654.631 307.751 658.34 333.5 L 660.5 348.5 L 666 348.765 C 671.908 349.049 811.821 341.517 812.445 340.881 C 812.651 340.672 812.363 333.075 811.805 324 C 810.718 306.303 811.356 266.168 812.998 249 C 823.293 141.367 866.524 68.425 943.097 29.489 C 966.168 17.757 989.453 9.761 1016.648 4.233 C 1023.904 2.758 1029.625 1.202 1029.361 0.775 C 1028.916 0.055 969.428 -0.052 960.5 0.651" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 -73.31 196.21)" id="svgPath"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(172,196,52); fill-rule: evenodd; opacity: 1;"  transform=" translate(-441.69, -512.71)" d="M 744.5 396.252 C 704.9 398.449 672.38 400.348 672.233 400.473 C 671.898 400.759 682.17 435.467 684.942 443.414 C 686.077 446.667 686.892 449.43 686.753 449.554 C 686.614 449.678 531.925 450.116 343 450.526 C 154.075 450.937 0.4 451.644 1.5 452.098 C 4.006 453.131 878.436 633 880.953 633 C 882.587 633 882.292 631.731 878.341 621.75 C 871.551 604.601 856.855 560.206 849.458 534.5 C 837.57 493.192 828.965 455.635 822.086 415.047 C 819.993 402.698 817.88 392.518 817.391 392.426 C 816.901 392.334 784.1 394.055 744.5 396.252" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>
