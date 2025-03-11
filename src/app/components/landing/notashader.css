@@ -1,0 +1,51 @@
+.shb{
+  --sepia: 0.75;
+  --sat: 6;
+  --hue-start: 0deg;
+  --hue: 360deg;
+  --dur-factor: 6;
+
+  background-image: url(/assets/notashader/img1.png);
+  background-size: cover;
+
+  overflow: hidden;
+  animation: hue 20s infinite;
+}
+
+.shb::before, .shb::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  inset: -100%;
+  background-size: cover;
+  animation: spin 0s infinite linear;
+  aspect-ratio: 1;
+  pointer-events: none;
+}
+
+.shb::before {
+  background-image: url(/assets/notashader/img2.png);
+  animation-duration: calc(1s * var(--dur-factor));
+  mix-blend-mode:luminosity;
+}
+
+.shb::after {
+  background-image: url(/assets/notashader/img3.png);
+  animation-duration: calc(2.5s * var(--dur-factor));
+  animation-direction: reverse;
+  mix-blend-mode: lighten;
+}
+
+@keyframes spin {
+  100% { transform: rotate(360deg);}
+}
+
+@keyframes hue {
+  0% {
+    filter: sepia(var(--sepia)) saturate(var(--sat)) hue-rotate(var(--hue-start));
+  }
+
+  100% {
+    filter: sepia(var(--sepia)) saturate(var(--sat)) hue-rotate(var(--hue));
+  }
+}

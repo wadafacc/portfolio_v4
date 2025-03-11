@@ -2,6 +2,8 @@
   background-color: white;
   padding: 0;
   width: 100%;
+  min-height: 80vh;
+  height: fit-content;
 }
 
 .shelf-head {
@@ -14,11 +16,12 @@
 
 .element {
   width: calc(100vw / 3);
+  padding-bottom: 24px;
 }
 
 .element .img-wrapper {
   width: 100%;
-  height: calc(100vw / 3);
+  aspect-ratio: 1;
   overflow: hidden;
 }
 
@@ -38,10 +41,25 @@
 
 
 .desc {
-  margin-top: 1vh;
-  padding-left: 2vh;
+  margin-top: 8px;
   color: black;
-  width: calc(100% - 2vh);
+  width: 100%;
   font-family: "ntype82-mono";
   font-size: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shelf {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 650px) {
+  .shelf {
+    flex-direction: column ;
+  }
+
+  .element {
+    width: 100%;
+  }
 }
