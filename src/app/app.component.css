@@ -12,11 +12,29 @@
   transition: 0.25s;
 }
 
+#header-popup {
+  position: fixed;
+  top: -25%;
+  z-index: 99;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+  font-size: 24px;
+
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 12px;
+  border: 2px solid white;
+
+  animation: popup 10s;
+  animation-delay: 5s;
+}
+
+
 .hovering {
   position: relative;
   height: 6vh !important;
   width: 6vh !important;
-
   border-radius: 1vh;
   background-color: transparent !important;
   border: 0.2vh solid white !important;  
@@ -30,11 +48,24 @@
   text-align: center;
   margin-top: -0.25vh;
   font-size: 4vh;
+}
 
+@keyframes popup {
+  5% {
+    top: 0;
+  }
+
+  95% {
+    top: 0;
+  }
+
+  to {
+    top: -25%;
+  }
 }
 
 @media screen and (max-width: 650px) {
-  #cursor {
+  #cursor, #header-popup {
     display: none;
   }
 }

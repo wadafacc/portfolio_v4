@@ -49,3 +49,15 @@
     filter: sepia(var(--sepia)) saturate(var(--sat)) hue-rotate(var(--hue));
   }
 }
+
+
+/*
+-- it can happen on mobile that you can see the edges of the squares, which kind of blows the illusion -> fix with responsive layout stuff
+*/
+
+
+@media screen and (max-width: 650px) {
+  .shb::before, .shb::after {
+    inset: 100%;
+  }
+}

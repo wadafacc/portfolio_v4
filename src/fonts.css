@@ -32,10 +32,11 @@
 
 .small {
   font-size: 64px;
-  line-height: 16px;
 }
 .large {
   font-size: 192px;
+  /* top | right | bottom | left */
+  margin: -48px 0 -24px 0;
 }
 
 .funky {

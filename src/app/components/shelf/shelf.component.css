@@ -1,6 +1,5 @@
 .section {
   background-color: white;
-  padding: 0;
   width: 100%;
   min-height: 80vh;
   height: fit-content;
@@ -15,7 +14,7 @@
 }
 
 .element {
-  width: calc(100vw / 3);
+  width: 33.33%;
   padding-bottom: 24px;
 }
 
@@ -43,7 +42,7 @@
 .desc {
   margin-top: 8px;
   color: black;
-  width: 100%;
+  width: 95%;
   font-family: "ntype82-mono";
   font-size: 20px;
   text-overflow: ellipsis;
