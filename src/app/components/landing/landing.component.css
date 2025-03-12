@@ -111,6 +111,7 @@ img {
   }
   
   .section {
+    height: 100%;
     flex-direction: column-reverse;
   }
 }

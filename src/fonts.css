@@ -67,9 +67,10 @@
 }
 
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 650px) {
   .large {
-    font-size: 168px;
+    font-size: 128px;
+    margin: -72px 0 -48px 16px;
   }
 
   .small {
