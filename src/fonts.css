@@ -35,7 +35,6 @@
 }
 .large {
   font-size: 192px;
-  /* top | right | bottom | left */
   margin: -48px 0 -24px 0;
 }
 
@@ -65,4 +64,15 @@
 @font-face {
   font-family: "ntype82-mono";
   src: url(/fonts/NType82Mono-Regular.otf);
+}
+
+
+@media screen and (max-width: 750px) {
+  .large {
+    font-size: 168px;
+  }
+
+  .small {
+    font-size: 48px;
+  }
 }
